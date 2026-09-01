@@ -1,32 +1,62 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ma To-Do List</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>✨ Ma To-Do List</h1>
-        <p>Organise tes tâches simplement</p>
-    </header>
-    <main>
-        <section class="todo-container">
-            <div class="input-zone">
-                <input type="text" id="taskInput" placeholder="Écris une nouvelle tâche...">
-                <button id="addButton">Ajouter</button>
-            </div>
-            <div class="infos">
-                <p id="taskCount">0 tâche</p>
-                <button id="clearButton">Tout supprimer</button>
-            </div>
-            <ul id="taskList"></ul>
-        </section>
-    </main>
-    <footer>
-        <p>© 2026 - Ma To-Do List</p>
-    </footer>
-    <script src="script.js"></script>
-</body>
+<!DOCTYPE html> 
+<html lang="fr"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Ma To-Do List</title> 
+    <link rel="stylesheet" href="styles.css"> 
+
+    <!-- Bonne organisation : le CSS est placé dans un fichier séparé. -->
+</head> 
+<body> 
+    <header> 
+        <h1> Ma To-Do List</h1> 
+
+        <!--  Le titre est clair et correspond bien au sujet du projet. -->
+
+        <p>Organise tes tâches simplement</p> 
+    </header> 
+
+    <main> 
+        <section class="todo-container"> 
+
+            <!--  Très bonne utilisation des balises sémantiques <header>, <main> et <section>. -->
+
+            <div class="input-zone"> 
+                <input type="text" id="taskInput" placeholder="Écris une nouvelle tâche..."> 
+                <button id="addButton">Ajouter</button> 
+
+                <!--  Amélioration possible : ajouter un <label> associé au champ input améliorerait l'accessibilité. -->
+            </div> 
+
+            <div class="infos"> 
+                <p id="taskCount">0 tâche</p> 
+                <button id="clearButton">Tout supprimer</button> 
+                <!--  Bonne idée d'avoir ajouté un bouton pour supprimer toutes les tâches : c'est une fonctionnalité supplémentaire intéressante. -->
+            </div> 
+
+            <ul id="taskList"></ul> 
+
+            <!--  La liste <ul> est parfaitement adaptée pour afficher les différentes tâches. -->
+        </section> 
+    </main> 
+
+    <footer> 
+        <p>© 2026 - Ma To-Do List</p> 
+    </footer> 
+
+    <script src="script.js"></script> 
+
+    <!--  Le JavaScript est correctement séparé dans son propre fichier. -->
+</body> 
 </html>
+
+<!--
+ Très beau travail !
+
+Votre structure HTML est claire, bien organisée et respecte les principales consignes du devoir.
+Vous avez également pensé à utiliser des balises sémantiques et à prévoir plusieurs fonctionnalités dès la structure de la page.
+
+Continuez à garder cette bonne organisation dans vos prochains projets.
+Bravo pour votre sérieux et votre créativité !
+-->
